@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* 深色背景 */
+    color: #333; /* 字体颜色 */
+}
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+header h1 {
+    text-align: center;
+    margin: 0;
+}
+nav ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.hero {
+    background: url('https://source.unsplash.com/random/1600x900?hero') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+.hero h2 {
+    margin: 0;
+    font-size: 3rem;
+}
+main {
+    padding: 2rem 0;
+}
+section {
+    background: white;
+    margin: 1rem 0;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
